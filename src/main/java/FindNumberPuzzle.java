@@ -97,6 +97,8 @@ public class FindNumberPuzzle {
         //List<String> numbers = List.of("608017", "248460", "962282", "994725", "177092");
         //FindNumberPuzzle puzzle = new FindNumberPuzzle(numbers);
         FindNumberPuzzle puzzle = new FindNumberPuzzle("C:/Users/User/IdeaProjects/untitled4/src/main/resources/numbers.txt");
-        System.out.println(puzzle.findBiggestPuzzle());
+        String puzzleRes = puzzle.findBiggestPuzzle();
+        System.out.println(puzzleRes.length());
+        System.out.println(puzzleRes);
     }
 }
